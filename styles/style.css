@@ -9,18 +9,66 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.header__logo{background-image: url(../images/logo_place_header.svg);
+  width: 183px;
+  height: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 64px;
+  top: 30px;
+}
+.header__title {
+  width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: bold;
+  z-index: 2;
+
+  
+}
+.subtitle {
+  width: 388px;
+  font-size: 18px;
+  line-height: 25px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  font-weight: normal;
+}
+
+.main-illustration {background-image: url(../images/header-image.png);
+  width: 765px;
+  height: 608px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  align-self: right;
+  position: absolute;
+  bottom:0px;
+  right: 0px;
+  z-index: 1;
+} 
+.header__square-pic {position: absolute;
+  right: 0px;
+  top: 64px;
+  height: 568px;
+  width: 568px;
+  background-color: blue;
+  z-index: 0;
+}
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  justify-content: left;
+  margin-left: 64px;
   /* выше установили ограничения для секции */
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
