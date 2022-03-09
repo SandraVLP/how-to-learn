@@ -192,7 +192,7 @@
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-position: left 0px bottom 0px;
-  background-size: 867x637px;
+  background-size: 867 637px;
   margin-bottom: 0px;
   position: relative;
   display: flex;
@@ -326,8 +326,8 @@
 }
 
 .footer__column-links {
-  padding-left:0;  
-  color: white; 
+  padding-left:0;
+  color: white;
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
