@@ -1,0 +1,14 @@
+.cards__item {
+    padding-top: 60px;
+    margin-right: 100px;
+    margin-top: 0;
+    
+    
+    
+}
+
+.cards__item:nth-last-of-type(2) {
+    margin-right: 0;
+    background-color: lime;
+    
+}
