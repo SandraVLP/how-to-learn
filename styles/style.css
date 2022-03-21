@@ -1,3 +1,4 @@
+@import url(../pages/index.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_place/logo_place_header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -63,19 +64,9 @@
 @import url(../blocks/content/resources/resources.css);
 @import url(../blocks/content/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/content/resources/__logo/resources__logo.css);
-
 @import url(../blocks/content/rotation/rotation.css);
 
 
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-}
+
 
 
