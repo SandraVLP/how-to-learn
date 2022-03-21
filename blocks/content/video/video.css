@@ -1,4 +1,8 @@
 .video {
     margin-top: 100px;
     overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -60px;
+
 }
