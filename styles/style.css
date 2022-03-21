@@ -49,6 +49,7 @@
 @import url(../blocks/content/video/video.css);
 @import url(../blocks/content/video/__iframe/video__iframe.css);
 @import url(../blocks/content/video/__iframes/video__iframes.css);
+@import url(../blocks/content/oakley/oakley.css);
 @import url(../blocks/content/khan/khan.css);
 @import url(../blocks/content/khan/__container/khan__container.css);
 @import url(../blocks/content/khan/__container/__author/khan__author.css);
@@ -63,8 +64,6 @@
 @import url(../blocks/content/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/content/resources/__logo/resources__logo.css);
 @import url(../blocks/content/rotation/rotation.css);
-@import url(../blocks/content/oakley/oakley.css);
-
 
 
 .page {
