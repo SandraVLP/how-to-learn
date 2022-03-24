@@ -6,3 +6,7 @@
     background-repeat: no-repeat;
     align-self: flex-start;
   }
+
+  .logo_place_footer:hover {
+    opacity: 0.5; 
+  }
